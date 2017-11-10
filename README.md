@@ -1,11 +1,11 @@
-# web-emc2
-C++ Webassembly experiments using Emscripten on OSX
+# wasm-emc2
+C++ & Webassembly experiments using Emscripten on OSX
 
-## Pre
+## Prerequisites
 ```
 brew install cmake
 ```
-## emcc
+## Emscripten SDK
 ```
 git clone https://github.com/juj/emsdk.git
 cd emsdk
