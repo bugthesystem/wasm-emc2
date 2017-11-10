@@ -18,7 +18,7 @@ source ./emsdk_env.sh
 
 ## Compile
 ```sh
-emcc -o hello.html hello.c -O3 -s WASM=1 \ 
+emcc -o out/hello.html hello.c -O3 -s WASM=1 \ 
      --shell-file html_template/shell_minimal.html -s NO_EXIT_RUNTIME=1
 ```
 
@@ -30,7 +30,7 @@ npm install -g lite-server
 ```
 
 ```sh
-lite-server
+lite-server out/
 ```
 
 |> z i λ a s a l
