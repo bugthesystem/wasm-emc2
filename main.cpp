@@ -2,17 +2,12 @@
 #include <emscripten/emscripten.h>
 
 int main(int argc, char ** argv) {
-    printf("Hello World\n");
+    printf("WASM emscripten yay!\n");
 }
 
-// #ifdef __cplusplus
+//wrapped in `extern "C"` to prevent C++ name mangling
 extern "C" {
-// #endif
-
-void EMSCRIPTEN_KEEPALIVE myFunction(int argc, char ** argv) {
-  printf("MyFunction Called\n");
+    void EMSCRIPTEN_KEEPALIVE myFunction(int argc, char ** argv) {
+      printf("bidi function called!\n");
+    }
 }
-
-// #ifdef __cplusplus
-}
-// #endif
