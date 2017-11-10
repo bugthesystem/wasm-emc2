@@ -33,5 +33,7 @@ npm install -g lite-server
 ```sh
 lite-server out/
 ```
+## Credits
+**Logo :** https://github.com/WebAssembly
 
 |> z i λ a s a l
