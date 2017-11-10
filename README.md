@@ -1,5 +1,6 @@
-# wasm-emc2
-C++ & Webassembly experiments using Emscripten on OSX
+![WebAssembly]( https://avatars1.githubusercontent.com/u/11578470?s=200&v=4 "WebAssembly")
+> C++ & Webassembly experiments using Emscripten on OSX
+
 
 ## Prerequisites
 ```
