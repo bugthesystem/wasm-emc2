@@ -1,4 +1,5 @@
-![WebAssembly]( https://avatars1.githubusercontent.com/u/11578470?s=200&v=4 "WebAssembly")
+# WASM EMCC
+
 > C++ & Webassembly experiments using Emscripten on OSX
 
 
@@ -33,7 +34,6 @@ npm install -g lite-server
 ```sh
 lite-server out/
 ```
-## Credits
-**Logo :** https://github.com/WebAssembly
 
 |> z i λ a s a l
+
