@@ -7,7 +7,7 @@ int main(int argc, char ** argv) {
 
 //wrapped in `extern "C"` to prevent C++ name mangling
 extern "C" {
-    void EMSCRIPTEN_KEEPALIVE myFunction(int argc, char ** argv) {
+    void EMSCRIPTEN_KEEPALIVE func(int argc, char ** argv) {
       printf("bidi function called!\n");
     }
 }
