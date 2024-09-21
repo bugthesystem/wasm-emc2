@@ -25,6 +25,8 @@ source ./emsdk_env.sh
 ```sh
 emcc -o out/index.html main.c -O3 -s WASM=1 \
      --shell-file html_template/shell_minimal.html -s NO_EXIT_RUNTIME=1
+
+emcc main.cpp -s USE_SDL=2 -s WASM=1 -s ASYNCIFY -o out/index.html
 ```
 
 ## Preview
